@@ -1,0 +1,8 @@
+- name: set up mongodb server
+  hosts: mongodb
+  become: yes
+  roles:
+  - mongodb
+
+ # model 1 
+ # ansible-playbook -i inventory.ini mongodb.yml

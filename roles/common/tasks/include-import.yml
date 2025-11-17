@@ -1,0 +1,7 @@
+- name: testing include vs import
+  ansible.builtin.debug:
+    msg: "hii"
+
+- name: testing include vs import again
+ansible.builtin.debug:  # wnatedly give syntax error
+    msg: "hello"    
